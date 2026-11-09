@@ -2,7 +2,7 @@ import os
 import telebot
 
 # O token sagrado que o BotFather te deu no print! 🤖
-TOKEN = '9217841403:AAFZ83Lv5tJrozGzTFgBDXvaQjh401r3q1k'
+TOKEN = '9195985551:AAEturVMDDVOL7hSpHdxW3XDT2pgnE6AAMM'
 bot = telebot.TeleBot(TOKEN)
 
 # Resposta zoeira para quando o bot finalmente acordar
