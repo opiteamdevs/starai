@@ -7,7 +7,7 @@ bot = telebot.TeleBot(TOKEN)
 def processar_mensagem(message):
     texto_usuario = message.text
     
-    if "olá" in texto_usuario.lower() or "salve" in texto_usuario.lower():
+    if "olá" in texto_usuario.lower() or "salve" in texto_usuario.lower() or "oi" in texto_usuario.lower():
        bot.reply_to(message, "Opa!!")
     elif "qual teu nome?" in texto_usuario.lower():
         bot.reply_to(message, "Eu me chamo OpenSumo!")
