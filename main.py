@@ -9,7 +9,7 @@ def processar_mensagem(message):
     
     if "olá" in texto_usuario.lower() or "salve" in texto_usuario.lower():
        bot.reply_to(message, "Opa!!")
-    elif "Qual teu nome?" in texto_usuario.lower():
+    elif "qual teu nome?" in texto_usuario.lower():
         bot.reply_to(message, "Eu me chamo OpenSumo!")
     else:
         bot.reply_to(message, "Eu não entendi, repita dnv?")
